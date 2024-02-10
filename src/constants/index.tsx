@@ -1,7 +1,7 @@
 export const options = {
   headers: {
-    "X-RapidAPI-Key": "86a095aa69msh75e0a5b425957f3p1d114djsnd02264d0a303",
-    "X-RapidAPI-Host": "cars-by-api-ninjas.p.rapidapi.com",
+    "X-RapidAPI-Key": import.meta.env.VITE_API_KEY,
+    "X-RapidAPI-Host": import.meta.env.VITE_API_HOST,
   },
 };
 
